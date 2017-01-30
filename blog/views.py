@@ -65,3 +65,12 @@ def comment_remove(request, pk):
     post_pk = comment.post.pk
     comment.delete()
     return redirect('post_detail', pk=post_pk)
+
+def youtube_channel(request):
+    return render(request, 'blog/youtube_channel.html')
+
+def contact(request):
+    return render(request, 'blog/contact.html')
+
+def about(request):
+    return render(request, 'blog/about.html')
