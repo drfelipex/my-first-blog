@@ -1,0 +1,13 @@
+li a {
+    color: white;
+}
+
+
+
+body {
+    background-image: url("images/photodr.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 500px 480px;
+}

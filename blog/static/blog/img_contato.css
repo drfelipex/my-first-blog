@@ -1,0 +1,12 @@
+li a {
+    color: white;
+}
+
+
+body {
+    background-image: url("images/contato.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: 500px 480px;
+}

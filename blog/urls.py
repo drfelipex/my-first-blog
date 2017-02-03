@@ -1,5 +1,10 @@
 from django.conf.urls import url
 from . import views
+from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf import settings
+
+
 
 urlpatterns = [
     url(r'^$', views.post_list, name='post_list'),
@@ -12,4 +17,7 @@ urlpatterns = [
     url(r'^youtube_channel/', views.youtube_channel, name='youtube_channel'),
     url(r'^contact/', views.contact, name='contact'),
     url(r'^about/', views.about, name='about'),
-                   ]
+               
+    #url(r'^static/(.*)$, 'django.views.static.serve',{'document_: settings.STATIC_ROOT}),
+        
+               ]

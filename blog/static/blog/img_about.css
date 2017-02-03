@@ -1,0 +1,12 @@
+li a {
+    color: white;
+}
+
+
+body {
+    background-image: url("images/eu.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: 580px 760px;
+}

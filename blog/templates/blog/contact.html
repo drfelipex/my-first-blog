@@ -1,14 +1,29 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'blog/img_contato.css' %}" />
+
+
+
 <html>
     <head>
         <h1>Contato  </h1>
         
     </head>
     <body>
-        <p>felipeacbr@gmail.com !!</p>
+        
+        
+        <i class="glyphicon glyphicon-envelope"> felipeacbr@gmail.com !!</i>
+        
     </body>
 </html>
+
+
+
+
+
+
 
 {% endblock content %}
